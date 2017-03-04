@@ -1,0 +1,121 @@
+::
+=>
+->
+<-
+++
+!!
+$
+.
+>>=
+>>
+<*>
+/=
+==
+>=
+<=
+>
+<
+words
+unwords xs
+lines
+unlines xs
+nub xs
+getLine
+putStrLn
+map f xs
+fmap
+length xs
+import
+do
+let
+in
+where
+case
+of
+if
+then
+else
+main
+Data.List
+sort
+group
+maximum xs
+minimum xs
+findIndex f xs
+show
+read
+Maybe
+Just
+Nothing
+return v
+pure v
+String
+Integral
+Int
+Char
+head xs
+tail xs
+init xs
+last xs
+data
+class
+instance
+newtype
+Bool
+Float
+type
+const v v'
+id v
+take n xs
+iterate f v
+concat xss
+repeat xs
+cycle xs
+replicate n v
+sum xs
+product xs
+**
+^
+sqrt
+Data.Char
+ord
+getChar
+putChar
+otherwise
+zip
+unzip
+zipWith
+filter p xs
+reverse xs
+lookup k ts
+elem
+notElem
+any
+all
+&&
+||
+or
+and
+flip f x y
+foldl
+foldr
+odd
+even
+takeWhile p xs
+dropWhile p xs
+span p xs
+break p xs
+succ
+max l r
+min l r
+null
+drop
+mod
+div
+fst t
+snd t
+System.IO
+isEOF
+round
+ceiling
+truncate
