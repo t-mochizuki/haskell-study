@@ -79,6 +79,7 @@ concat xss
 repeat xs
 cycle xs
 replicate n v
+replicateM n ma
 sum xs
 product xs
 **
