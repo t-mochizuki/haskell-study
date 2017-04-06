@@ -23,6 +23,7 @@ lines
 unlines xs
 nub xs
 getLine
+getContents
 putStrLn
 map f xs
 fmap
