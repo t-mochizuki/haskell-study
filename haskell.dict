@@ -1,36 +1,14 @@
-(1/)
-(/2)
-::
-=>
-->
-<-
-++
-!!
-$
-.
->>
->>=
-<*>
-/=
-==
->=
-<=
->
-<
-words
-unwords xs
-lines
-unlines xs
-nub xs
-getLine
-putStrLn
-map f xs
-fmap
-length xs
+main
 module
 import
 qualified
 as
+type
+data
+class
+instance
+newtype
+deriving
 do
 let
 in
@@ -40,97 +18,152 @@ of
 if
 then
 else
-main
-Data.List
-sort
-group
-maximumBy
-maximum xs
-minimum xs
-findIndex f xs
-show
-read
+otherwise
+Prelude
+(1/)
+(/2)
+(::)
+(=>)
+(->)
+(<-)
+(++)
+(!!)
+($)
+(.)
+(>>)
+(>>=)
 Maybe
 Just
 Nothing
+Char
+String
+Int
+Integer
+Bool
+True
+False
+Float
+undefined
+curry
+uncurry
 return v
 pure v
-String
-Integral
-Int
-Char
+const v v'
+id v
+show
+read
+words
+unwords xs
+lines
+unlines xs
+getChar
+getLine
+getContents
+putChar
+putStrLn
+print
+map f xs
+fmap f xs
+foldl f a xs
+foldr f a xs
+zip xs ys
+unzip
+zipWith f xs ys
+span p xs
+break p xs
+lookup a ts
+filter p xs
+any p xs
+all p xs
+null xs
 head xs
 tail xs
 init xs
 last xs
-data
-class
-instance
-newtype
-Bool
-Float
-type
-const v v'
-id v
+length xs
+reverse xs
 take n xs
-iterate f v
+takeWhile p xs
+drop n xs
+dropWhile p xs
 concat xss
 repeat xs
 cycle xs
-replicate n v
+replicate n a
+iterate f a
 sum xs
 product xs
-**
-^
-sqrt
-abs
-Data.Char
-chr
-ord
-getChar
-putChar
-otherwise
-zip
-unzip
-zipWith
-filter p xs
-reverse xs
-lookup k ts
-elem
-notElem
-any
-all
-&&
-||
-or
-and
-flip f x y
-foldl
-foldr
-odd
-even
-takeWhile p xs
-dropWhile p xs
-span p xs
-break p xs
-succ
+maximum xs
+minimum xs
 max l r
 min l r
-null
-drop
+maxBound :: Int
+minBound :: Int
+(**)
+(^)
+sqrt
+abs
+elem
+notElem
+(&&)
+(||)
+(/=)
+(==)
+(>=)
+(<=)
+(>)
+(<)
+or
+and
+odd
+even
+pred
+succ
 mod
 div
 fst t
 snd t
-System.IO
-isEOF
+flip f x y
 truncate
 round
 floor
 ceiling
+
+System.IO
+isEOF
+
 Data.List.Split
 splitOn a as
-curry
-uncurry
+
 Data.Ord
 comparing
+
+Control.Applicative
+(<$>)
+(<*>)
+
+Control.Monad
+replicateM
+replicateM_
+forM
+forM_
+
+Data.Array
+(!)
+(//)
+Array
+array
+listArray
+
+Data.List
+nub xs
+permutations
+sort
+group
+maximumBy
+findIndex p xs
+unfoldr
+
+Data.Char
+chr
+ord
