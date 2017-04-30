@@ -157,9 +157,11 @@ listArray
 
 Data.List
 nub xs
-permutations
-sort
-group
+permutations xs
+subsequences xs
+sort xs
+sortBy (comparing snd) xs
+group xs
 maximumBy
 findIndex p xs
 unfoldr
